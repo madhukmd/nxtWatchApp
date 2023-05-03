@@ -21,6 +21,9 @@ export const TrendingVideosContent = styled.ul`
   list-style-type: none;
   padding-left: 20px;
   margin-top: 0;
+  @media screen and (max-width: 567px) {
+    padding: 5px;
+  }
 `
 export const TrendingHeadingContainer = styled.div`
   display: flex;

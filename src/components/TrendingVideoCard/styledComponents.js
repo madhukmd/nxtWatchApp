@@ -7,7 +7,7 @@ export const TrendingsVideoListItem = styled.li`
   width: 100%;
   margin-right: 20px;
   padding-top: 20px;
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 567px) {
     flex-direction: column;
     margin-bottom: 0;
   }
@@ -16,7 +16,7 @@ export const TrendingsVideoListItem = styled.li`
 export const TrendingsThumbNailImage = styled.img`
   width: 325px;
   border-radius: 6px;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 567px) {
     width: 100%;
   }
 `
@@ -26,7 +26,7 @@ export const TrendingsSaveVideoDescription = styled.div`
   justify-content: flex-start;
   width: 100%;
   padding-left: 20px;
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 567px) {
     padding-left: 0;
   }
 `
@@ -37,7 +37,7 @@ export const TrendingsProfileImage = styled.img`
   margin: 10px;
   margin-top: 20px;
   margin-left: 0;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 567px) {
     display: none;
   }
 `
